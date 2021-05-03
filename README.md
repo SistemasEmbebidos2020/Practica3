@@ -10,7 +10,7 @@ DDRB |= ((1 << DDB5));    //Desplazar el ‘1’ en 5 unidades del puerto DDRB.
 
 ##Cómo funciona?
 ###### bits
-  _7 6 5 4 3 2 1 0_
+###### 7 6 5 4 3 2 1 0
 ```
 0 0 0 0 0 0 0 0 (DDRB original) //antes de la operación
 0 0 1 0 0 0 0 0 (1 << DDB5) //durante la operación -- deplazamiento de 1 al bit 5
