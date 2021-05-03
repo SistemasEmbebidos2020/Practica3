@@ -15,10 +15,12 @@ DDRB |= ((1 << DDB5));    //Desplazar el ‘1’ en 5 unidades del puerto DDRB.
 0 0 1 0 0 0 0 0 (luego de la operación or)
 ```
 
-**DDRB |= ((1 << DDB5)); 	»	00100000
-DDRB |= ((1 << DDB3));		»	00101000
-DDRB |= ((1 << DDB2));		» 	00101100
+```
+DDRB |= ((1 << DDB5)); 	»	00100000
+DDRB |= ((1 << DDB3));	»	00101000
+DDRB |= ((1 << DDB2));	»	00101100
 ↓
 DDRB = 0B 00101100
 DDRB = 44
-DDRB = 0X2C**
+DDRB = 0X2C
+```
