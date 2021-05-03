@@ -5,7 +5,7 @@
 #include <util/delay.h>   //Librería si queremos usar tiempos
 int main(void) 
 DDRB |= ((1 << DDB5));    //Desplazar el ‘1’ en 5 unidades del puerto DDRB.
-**| este operador realiza una operación OR**
+**| este operador realiza una operación OR **
 
 __7 6 5 4 3 2 1 0__
 0 0 0 0 0 0 0 0 (DDRB original)
