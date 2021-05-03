@@ -1,4 +1,5 @@
 # Practica3
+## Código1
 ```
 #include <avr/io.h>       //Librería para tipo de programación, habilitación de I/O
 #include <util/delay.h>   //Librería si queremos usar tiempos
