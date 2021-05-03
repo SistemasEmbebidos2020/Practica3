@@ -1,7 +1,7 @@
 # Practica3
 
-#include <avr/io.h> 
-#include <util/delay.h> 
+#include <avr/io.h>       //Librería para tipo de programación, habilitación de I/O
+#include <util/delay.h>   //Librería si queremos usar tiempos
 int main(void) 
-![image](https://user-images.githubusercontent.com/78398897/116834778-3732ac80-ab85-11eb-8bcf-30b7b561f5d8.png)
 
+DDRB |= ((1 << DDB5));    //Desplazar el ‘1’ en 5 unidades del puerto DDRB.
