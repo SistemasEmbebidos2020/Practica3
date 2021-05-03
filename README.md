@@ -6,10 +6,9 @@
 int main(void) 
 DDRB |= ((1 << DDB5));    //Desplazar el ‘1’ en 5 unidades del puerto DDRB.
 ```
-**|este operador realiza una operación OR**
-
+**| este operador realiza una operación OR**
+###### bits
 _7 6 5 4 3 2 1 0_
-
 ```
 0 0 0 0 0 0 0 0 (DDRB original)
 0 0 1 0 0 0 0 0 (1 << DDB5)
