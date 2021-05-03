@@ -8,7 +8,7 @@ DDRB |= ((1 << DDB5));    //Desplazar el ‘1’ en 5 unidades del puerto DDRB.
 ```
 **| este operador realiza una operación OR
 
-## Cómo funciona?
+## Cómo funciona :question:
 ###### bits
 ###### 7 6 5 4 3 2 1 0
 ```
