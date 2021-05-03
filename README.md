@@ -25,3 +25,6 @@ DDRB = 0B 00101100
 DDRB = 44
 DDRB = 0X2C
 ```
+# CLONE
+- git status
+- git clone https://github.com/SistemasEmbebidos2020/Practica3.git
