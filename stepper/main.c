@@ -2,10 +2,10 @@
 
 int main()
  { 
-  PORTB |= 1<<0; //habilitar pullUp de pin 0 puerto B
-  pasoapasoinit(1,2,3,4,100); //pines a usar para movimiento de motor paso a paso y velocidad
+  PORTB |= 1<<0;  //activar resistencia pullUp del pin 0 del puerto B
+  pasoapasoinit('d',1,2,3,4,100);   //iniciarlizar el control del motor paso a paso
   while (1){
-     if (!(PINB&(1<<0))){  //Se pregunta si el pin 0D se encuentre en bajo
+     if (!(PINB&(1<<0))){  //se pregunta por el pinB0 donde está conectado el interruptor
 	giro_izq();
      }
      else{
