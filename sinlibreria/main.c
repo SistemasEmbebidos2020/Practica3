@@ -12,9 +12,7 @@ uint16_t demora = 500;
 int main()
 { 
     DDRB = (1 << p1) | (1 << p2) | (1 << p3) | (1 << p4); //pines 1,2,3,4 del puerto B como salida
-    PORTB |=  (1 << s1);
-    // Write your code here
-   while (1)
+    while (1)
       {
 
 	    PORTB |= (1 << p1);
