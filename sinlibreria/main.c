@@ -7,7 +7,7 @@ uint8_t p2 = 2;
 uint8_t p3 = 3;
 uint8_t p4 = 4;
 
-uint16_t demora = 500;
+uint16_t demora = 500;  //5 para motor físico
 
 int main()
 { 
