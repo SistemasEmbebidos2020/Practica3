@@ -10,7 +10,10 @@ int main()
     DDRB |= 1 << led0;
     DDRB |= 1 << led1;
     DDRB |= 1 << led2;
-
+ //DDRB = (1 << led0) | (1 << led1) | (1 << led2);
+ //DDRB = 0B00000111; //0B111;
+ //DDRB = 0X07;
+ //DDRB = 7;
     while (1){
        
        PORTB = 1<<led0;
