@@ -2,10 +2,10 @@
 #include <avr/sleep.h>
 #include <util/delay.h>
 
-uint8_t p1 = 1;
-uint8_t p2 = 2;
-uint8_t p3 = 3;
-uint8_t p4 = 4;
+uint8_t p1 = 0;
+uint8_t p2 = 1;
+uint8_t p3 = 2;
+uint8_t p4 = 3;
 
 uint16_t demora = 500;  //5 para motor físico
 
