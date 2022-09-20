@@ -11,7 +11,7 @@ uint16_t demora = 500;  //5 para motor físico
 
 int main()
 { 
-    DDRB = (1 << p1) | (1 << p2) | (1 << p3) | (1 << p4); //pines 1,2,3,4 del puerto B como salida
+    DDRB = (1 << p1) | (1 << p2) | (1 << p3) | (1 << p4); //pines 0,1,2,3 del puerto B como salida
     while (1)
       {
 
