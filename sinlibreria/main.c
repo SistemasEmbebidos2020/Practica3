@@ -6,7 +6,8 @@ uint8_t p1 = 0;
 uint8_t p2 = 1;
 uint8_t p3 = 2;
 uint8_t p4 = 3;
-
+//Tiempo necesario para energizar cada bobina
+//En el simulador proteus con 500ms funciona
 uint16_t demora = 500;  //5 para motor físico
 
 int main()
