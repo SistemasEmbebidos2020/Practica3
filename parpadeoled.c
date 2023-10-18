@@ -7,7 +7,7 @@ int led2 = 2;
 
 int main()
  { 
-    DDRB |= 1 << led0;
+    DDRB = 1 << led0;
     DDRB |= 1 << led1;
     DDRB |= 1 << led2;
  //DDRB = (1 << led0) | (1 << led1) | (1 << led2);
